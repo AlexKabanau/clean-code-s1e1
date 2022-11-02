@@ -19,7 +19,7 @@
 
 @media (max-width: 768px) {
 
-  .intro { 
+  .intro {
     text-align: center;
   }
 
@@ -107,8 +107,8 @@ button{
   justify-content: space-between;
   align-items: center;
 }
-.item__input, 
-.item__label, 
+.item__input,
+.item__label,
 .item__button {
   vertical-align: middle;
 }
@@ -135,7 +135,7 @@ button{
 }
 
 /* Completed */
-ul#completed-section .item__label {
+.completed-section .item__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -143,6 +143,9 @@ ul#completed-section .item__label {
 /* Edit Task */
 .item__input[type=text] {
   display: none;
+}
+.adding-section__task[type=text] {
+  display: block;
 }
 
 .edit-mode .item__input[type=text] {
