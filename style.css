@@ -41,10 +41,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.task-list__item, .title {
+.task-list__item,
+.title {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .button {
@@ -105,7 +107,9 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
-.item__input, .item__label, .item__button {
+.item__input, 
+.item__label, 
+.item__button {
   vertical-align: middle;
 }
 
